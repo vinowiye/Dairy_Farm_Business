@@ -1,0 +1,63 @@
+/*navigation bar*/
+li {
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    background-color:yellowgreen;
+  }
+/*first section*/
+.home{
+    background-image:url("photos/homepage.jpg");
+    background-position-x: center;
+    
+}
+/*heading one*/
+h1{
+    color: yellowgreen;
+    text-align: center;
+}
+
+/*heading two*/
+h2{
+    color: aqua;
+}
+
+
+/*shades section*/
+.shades{
+    background-image: url("photos/shades.jpg");
+}
+
+.column {
+    float: left;
+    width: 25%;
+    
+  }
+
+.about>p{
+    background-color: lightgrey;
+    width: 1150px;
+    border: 15px solid green;
+    padding: 30px;
+    margin: 10px;
+}
+  /*contacts section*/
+.contacts{
+}
+
+
+/*location section*/
+.location{
+    
+
+}
+.location > img{
+    height: 400px;
+    width: max-content;
+}
+
+
+/*footers section*/
+footer{
+
+}
