@@ -4,6 +4,10 @@ li {
     text-align: center;
     padding: 14px 16px;
     background-color:yellowgreen;
+    border-radius: 50%;
+  }
+  .navigation_bar{
+      float: right;
   }
 /*first section*/
 .home{
@@ -15,6 +19,7 @@ li {
 h1{
     color: yellowgreen;
     text-align: center;
+    background-color: cyan;
 }
 
 /*heading two*/
@@ -28,12 +33,12 @@ h2{
     background-image: url("photos/shades.jpg");
 }
 
-.column {
+.shades>.column {
     float: left;
     width: 25%;
     
   }
-
+/*about us section*/
 .about>p{
     background-color: lightgrey;
     width: 1150px;
@@ -42,8 +47,13 @@ h2{
     margin: 10px;
 }
   /*contacts section*/
-.contacts{
-}
+.contacts>.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+
+    
+  }
 
 
 /*location section*/
@@ -59,5 +69,45 @@ h2{
 
 /*footers section*/
 footer{
+    text-align: center;
 
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
