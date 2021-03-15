@@ -34,14 +34,15 @@ h3{
 /*shades section*/
 .shades{
     background-image: url("photos/shades.jpg");
-    color:aqua;
+    color:black;
     text-align: center;
 }
 
 .shades>.column {
     float: left;
     width: 25%;
-    color: cyan;
+    color:black ;
+
     
   }
   .shades>.income{
