@@ -26,16 +26,22 @@ h1{
 h2{
     color: aqua;
 }
+h3{
+    color: blue;
+}
 
 
 /*shades section*/
 .shades{
     background-image: url("photos/shades.jpg");
+    color:green;
+    text-align: center;
 }
 
 .shades>.column {
     float: left;
     width: 25%;
+    color: cyan;
     
   }
 /*about us section*/
